@@ -151,23 +151,29 @@ plt.show()
 ### 1. Smoothing Filters
 
 i) Using Averaging Filter
+
 ![Avg filter](https://user-images.githubusercontent.com/75235747/168127970-b733f679-527a-41f6-a738-5e2055b0cc05.JPG)
 
 ii) Using Weighted Averaging Filter
+
 ![weighted Avg](https://user-images.githubusercontent.com/75235747/168128053-526260f5-8de8-40b8-869d-2c361c96965f.JPG)
 
 iii) Using Gaussian Filter
+
 ![Guassian](https://user-images.githubusercontent.com/75235747/168128103-de9e3967-7e3a-4c22-85cc-70229e8127ec.JPG)
 
 iv) Using Median Filter
+
 ![Median](https://user-images.githubusercontent.com/75235747/168128134-2b3800b9-3a4e-45bb-a3b0-538cd9a2a662.JPG)
 
 ### 2. Sharpening Filters
 
 i) Using Laplacian Kernal
+
 ![kernal](https://user-images.githubusercontent.com/75235747/168128340-cf10345e-7419-4c91-a255-e3ce80796870.JPG)
 
 ii) Using Laplacian Operator
+
 ![laplaacian](https://user-images.githubusercontent.com/75235747/168128350-2106f79b-5524-4261-804d-5b3712f9970f.JPG)
 
 ## Result:
