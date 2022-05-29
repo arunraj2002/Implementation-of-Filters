@@ -6,44 +6,32 @@ To implement filters for smoothing and sharpening the images in the spatial doma
 Anaconda - Python 3.7
 
 ## Algorithm:
-### Step1
-Import the necessary modules.
+### Step1:
+Import necessary packages numpy,cv2 and matplotlib and save the image to perform Image filtering.
 
 ### Step2:
-For performing smoothing operation on a image.
-1. Average filter
-```python
-kernel=np.ones((11,11),np.float32)/121
-image3=cv2.filter2D(image2,-1,kernel)
-```
-2. Weighted average filter
-```python
-kernel1=np.array([[1,2,1],[2,4,2],[1,2,1]])/16
-image3=cv2.filter2D(image2,-1,kernel1)
-```
-3. Gaussian Blur
-```python
-gaussian_blur=cv2.GaussianBlur(image2,(33,33),0,0)
-```
-4. Median filter
-```python
-median=cv2.medianBlur(image2,13)
-```
+Use the syntax cv2.filter2D() to perform filtering.
 
 ### Step3:
-For performing sharpening on a image.
-1. Laplacian Kernel
-```python
-kernel2=np.array([[-1,-1,-1],[2,-2,1],[2,1,-1]])
-image3=cv2.filter2D(image2,-1,kernel2)
-```
-2. Laplacian Operator
-```python
-laplacian=cv2.Laplacian(image2,cv2.CV_64F)
-```
+For Average filter use the syntax = kernel=np.ones((9,9),np.float32)/81 .
 
 ### Step4:
-Display all the images with their respective filters.
+For Weighted average filter use the syntax = kernel=np.array([[1,2,1],[2,4,2],[1,2,1]])/16 .
+
+### Step5:
+For Gaussian filter use the syntax = gaussian_blur=cv2.GaussianBlur(src=image2,ksize=(11,11),sigmaX=0,sigmaY=0).
+
+### Step6:
+For Median filter use the syntax = median=cv2.medianBlur(src=image2,ksize=11).
+
+### Step7:
+For Laplacian kernel filter use the syntax = kernel=np.array([[0,1,0],[1,-4,1],[0,1,0]]).
+
+### Step8:
+For Laplacian operator use the syntax = lap_operator=cv2.Laplacian(image2,cv2.CV_64F).
+
+### Step9:
+Run the program by using the syntax , and print the output.
 
 ## Program:
 ```python
