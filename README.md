@@ -34,9 +34,9 @@ For Laplacian operator use the syntax = lap_operator=cv2.Laplacian(image2,cv2.CV
 Run the program by using the syntax , and print the output.
 
 ## Program:
+### Developed By   : R ARUNRAJ
+### Register Number: 212220230004
 ```python
-# Developed By   : R ARUNRAJ
-# Register Number: 212220230004
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
